@@ -17,7 +17,7 @@ class TestLogin:
     def setup_class(self):
         # 获取PageLogin对象
         self.login = PageLogin()
-        # 点击 弹窗
+        # 点击 弹窗a
         self.login.page_close_alert()
         # 点击 我
         self.login.page_click_me()
